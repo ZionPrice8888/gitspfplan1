@@ -1,5 +1,6 @@
 #@@@
 Mục tiêu: LẬP KẾ HOẠCH Sử dụng theme DefaultTheme ở shopify store jugjjq-1m.myshopify.com , thay thế nội dung cho sản phâm mới Utrasonic Oral Appliance Cleaner, brand: Orivati . 
+Trình bày: Kế hoạch thực hiện ở các file md ở thư mục con plan-edit-content
 Các hạng mục cần mapping thay thế:
 - Trang Product
 - 2 Trang Advertorial
@@ -50,4 +51,4 @@ Kế hoạch thực hiện gợi ý:
     - thực hiện việc kiểm tra, đánh giá
     - thực hiện việc tinh chỉnh, điều chỉnh
     - hoàn tất, báo cáo tổng kết
-- Tactic: đối với media (ảnh, video, icon, logos,...) sẽ dùng URL của file tham chiếu gốc (sau này sẽ dùng hosting media riêng); không sử dụng upload file lên Shopify Files (Tức là:  thay shopify://shop_images/... → URL media assets trực tiếp) (⚠️ Lưu ý về media assets: Shopify's url type field trong block settings thường chỉ nhận /relative hoặc shopify:// paths. Nếu media vẫn không hiện, có thể dùng custom-liquid section để inject HTML trực tiếp)
+- Tactic: đối với media (ảnh, video, icon, logos,...) sẽ dùng URL của file tham chiếu gốc (sau này sẽ dùng hosting media riêng); không sử dụng upload file lên Shopify Files (Tức là:  thay shopify://shop_images/... → URL media assets trực tiếp) (⚠️ Lưu ý về media assets: Shopify's url type field trong block settings thường chỉ nhận /relative hoặc shopify:// paths. Nếu media vẫn không hiện, có thể dùng custom-liquid section để inject HTML trực tiếp). VÌ hiện tại Media (image, video) chưa có URL chính xác, nên kế hoạch sẽ để tên file làm tham chiếu trong các tài liệu.
