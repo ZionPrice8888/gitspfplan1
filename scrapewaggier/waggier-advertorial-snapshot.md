@@ -1,0 +1,227 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e6]:
+      - link [ref=e11] [cursor=pointer]:
+        - /url: https://waggier.com/pages/dog-owner-exposes-hidden-truth
+      - generic [ref=e14]:
+        - generic [ref=e17]:
+          - 'heading "Dog Owner Exposes Hidden Truth: The 30-Minute Timer That Nearly Killed Her Corgi" [level=1] [ref=e20]':
+            - strong [ref=e22]: "Dog Owner Exposes Hidden Truth: The 30-Minute Timer That Nearly Killed Her Corgi"
+          - paragraph [ref=e26]:
+            - generic [ref=e27]: August 05 2025 at 9:17 AM PST
+          - paragraph [ref=e31]: "My vet circled the timer on the wall: \"If your dog's stomach flips, you have 30 minutes or she dies.\""
+          - paragraph [ref=e37]:
+            - strong [ref=e39]: I thought Sophie just loved her food.
+          - generic [ref=e42]:
+            - paragraph [ref=e43]: Turns out I'd been playing Russian roulette with her life twice a day for three years.
+            - paragraph [ref=e44]: If your dog wolfs down their meals in under 60 seconds...
+            - paragraph [ref=e45]: If you've ever joked about them being a "vacuum cleaner" at dinner time...
+            - paragraph [ref=e46]: If you think fast eating is just enthusiasm for food...
+            - paragraph [ref=e47]: Then what I'm about to share could save your dog's life.
+          - paragraph [ref=e51]:
+            - strong [ref=e53]: Every single day, 30% of dogs who develop bloat die—even WITH emergency treatment.
+          - paragraph [ref=e59]:
+            - text: "And here's the terrifying part: The \"enthusiastic eating\" you laugh about is actually filling your dog's stomach with invisible air bombs that can detonate 20 minutes after any meal."
+            - text: I'm talking about something vets call GDV—Gastric Dilatation Volvulus.
+            - text: But this isn't the obvious emergency you can see coming.
+            - text: This is the silent killer that strikes during a normal Tuesday dinner... then gives you exactly 30 minutes to save your dog's life.
+          - paragraph [ref=e63]:
+            - strong [ref=e65]: The Night Everything Changed
+          - paragraph [ref=e69]:
+            - text: My name is Jennifer Thompson.
+            - text: Three years ago, I thought I was a responsible dog owner.
+            - text: I live in Denver with my husband Mark and our Corgi Sophie. Premium food. Regular vet visits. Daily walks. I did everything right.
+            - text: Or so I thought...
+            - text: Sophie had always wolfed down her food—60 seconds flat for a whole bowl. We used to post videos of her "eating performances" that friends found hilarious.
+            - text: "\"Look at her go! She must really love that salmon recipe!\""
+            - text: That Tuesday started like any other dinner time.
+            - text: Sophie inhaled her kibble as usual. I cleaned her bowl while she wandered to her bed.
+            - text: Twenty minutes later, I heard a sound I'll never forget.
+            - text: Not quite a whine. Not quite a retch. Something guttural and wrong.
+            - text: Sophie was standing in the hallway, sides heaving, trying to vomit but nothing coming up.
+            - text: Just foam. White foam and desperate gulping sounds.
+          - paragraph [ref=e75]:
+            - text: Her stomach looked different. Swollen. Tight like a basketball.
+            - text: "\"Mark, something's wrong with Sophie!\""
+            - text: She couldn't sit. Couldn't lie down. Just stood there, head hanging, drooling strings of foam.
+            - text: I called our vet's emergency line. The tech's voice changed instantly.
+            - text: "\"Get her here immediately. Don't wait. Drive fast but safe.\""
+            - text: The panic in her voice told me everything.
+        - generic [ref=e78]:
+          - generic [ref=e82]:
+            - img [ref=e89]
+            - img [ref=e97]
+            - img [ref=e105]
+            - img [ref=e113]
+            - img [ref=e121]
+          - generic [ref=e123]:
+            - paragraph [ref=e128]: "4.8"
+            - paragraph [ref=e133]: "|"
+            - paragraph [ref=e138]: 1,802 Reviews
+          - heading "Prevents Deadly Bloat & Digestive Issues" [level=2] [ref=e141]:
+            - strong [ref=e143]: Prevents Deadly Bloat & Digestive Issues
+          - heading "Make Every Meal Last 10X Longer For A Healthy Life with Waggier PaceBowl" [level=2] [ref=e148]:
+            - strong [ref=e150]: Make Every Meal Last 10X Longer For A Healthy Life with Waggier PaceBowl
+          - link "<p>Check Availability</p>" [ref=e153] [cursor=pointer]:
+            - /url: https://waggier.com/products/waggier-pacebowl
+            - generic [ref=e154]:
+              - img [ref=e156]
+              - paragraph [ref=e159]: Check Availability
+    - generic [ref=e167]:
+      - paragraph [ref=e171]:
+        - strong [ref=e173]: The Race Against Time
+      - paragraph [ref=e177]:
+        - text: During that endless 12-minute drive, Sophie's breathing got shallower. The foam turned pink-tinged.
+        - text: The vet tech was waiting in the parking lot with a gurney. No paperwork. No questions. Just movement.
+        - text: Dr. Martinez appeared in surgical scrubs.
+        - text: "\"Sophie has GDV. Her stomach has flipped and is cutting off blood supply. We need to operate immediately.\""
+        - text: "\"Is she going to—\""
+        - text: "\"We have maybe 20 minutes before tissue starts dying. I need your consent now.\""
+      - paragraph [ref=e181]:
+        - strong [ref=e183]: $4,800. Four hours of surgery. One blood transfusion.
+      - paragraph [ref=e189]:
+        - text: Sophie survived.
+        - text: Barely.
+      - paragraph [ref=e193]:
+        - strong [ref=e195]: The Shocking Truth Nobody Tells You
+      - paragraph [ref=e199]:
+        - text: At 3 AM, while Sophie recovered, Dr. Martinez sat with me.
+        - text: "\"This wasn't bad luck,\" she said. \"Fast eating causes dogs to swallow massive amounts of air. That air creates a gas bubble that can flip the stomach at any time.\""
+        - text: "\"But lots of dogs eat fast—\""
+        - text: "\"And GDV kills more of them than cancer. The difference is cancer takes months. GDV takes minutes.\""
+        - text: She pulled up Sophie's x-rays.
+        - text: "\"See this dark area? That's all the air she swallowed. Every fast meal creates this bomb in their stomach.\""
+      - paragraph [ref=e205]:
+        - text: I thought about every meal Sophie had ever eaten. Hundreds of invisible dice rolls.
+        - text: "\"We tried tennis balls in her bowl,\" I said weakly."
+        - text: Dr. Martinez shook her head.
+        - text: "\"Tennis balls just make them eat around obstacles while still gulping air. The real problem is neurological.\""
+      - paragraph [ref=e209]:
+        - strong [ref=e211]: The Hidden Trigger Your Vet Never Mentioned
+      - paragraph [ref=e215]:
+        - text: "\"Your dog's brain can't tell the difference between eating at home and competing for a carcass in the wild,\" she explained."
+        - text: "\"When food is presented in a pile—ANY pile—it triggers their competitive feeding instinct. They're not eating fast because they're hungry. They're eating fast because their brain thinks another wolf might steal their food.\""
+        - text: She showed me a study from the Journal of Veterinary Behavior.
+      - paragraph [ref=e219]:
+        - strong [ref=e221]: Traditional slow feeders reduced eating speed by 40% but only reduced air intake by 10%.
+      - paragraph [ref=e225]:
+        - text: "\"Speed isn't the enemy. Air is. And air comes from the gulping motion triggered by competitive feeding response.\""
+        - text: All those solutions I'd tried? They slowed the eating but didn't stop the air gulping because the competitive trigger was still firing.
+      - paragraph [ref=e229]:
+        - strong [ref=e231]: The Discovery That Changed Everything
+      - paragraph [ref=e235]:
+        - text: Three days later, I brought Sophie home with 14 inches of incision staples.
+        - text: That's when my neighbor Sarah stopped by. Her German Shepherd had bloated twice. $12,000 total.
+        - text: "\"After the second surgery, our emergency vet told me about something that actually addresses the trigger,\" she said."
+        - text: She showed me a video on her phone. Her dog eating calmly, methodically, no gulping motions.
+        - text: "\"It's called the PaceBowl. The honeycomb design doesn't just create obstacles—it breaks up the food so dramatically that the brain stops seeing it as one resource to defend.\""
+        - text: "\"Watch his neck. See? No lurching gulp. His brain switched from 'compete' to 'explore.' No competitive response means no air gulping.\""
+        - text: "\"Eight months since we switched. Zero bloat scares.\""
+      - paragraph [ref=e241]:
+        - strong [ref=e243]: The Solution That Actually Works
+      - paragraph [ref=e247]:
+        - text: I ordered the
+        - link "Waggier PaceBowl" [ref=e248] [cursor=pointer]:
+          - /url: https://waggier.com/products/waggier-pacebowl
+          - generic [ref=e249]: Waggier PaceBowl
+        - text: that afternoon.
+        - text: When it arrived, I was skeptical. Another "miracle" solution.
+        - text: But Sophie's reaction was immediate and bizarre.
+        - text: Instead of her usual frantic gulping, she paused. Sniffed. Started eating with careful, exploring movements.
+        - text: No neck lurching. No desperate gulps. Just steady, calm eating.
+        - text: The meal that used to take 60 seconds took 10 minutes.
+        - text: "But here's what shocked me: I could HEAR the difference."
+        - text: "Before: Gulp-gulp-gulp-gulp."
+        - text: "Now: Crunch... crunch... explore... crunch."
+        - text: No air rushing. No panic. Just eating.
+      - article [ref=e252]:
+        - img [ref=e253]
+        - button "Play":
+          - img
+      - paragraph [ref=e258]:
+        - strong [ref=e260]: Why This Design Is Different
+      - paragraph [ref=e264]:
+        - text: "The PaceBowl's honeycomb maze pattern does something no other bowl can:"
+        - generic [ref=e265]:
+          - strong [ref=e266]: "• Breaks Visual Triggers:"
+          - text: Food isn't in a pile, so the brain doesn't activate competition mode
+        - generic [ref=e267]:
+          - strong [ref=e268]: "• Forces Natural Foraging:"
+          - text: Mimics how dogs would eat scattered prey in nature
+        - generic [ref=e269]:
+          - strong [ref=e270]: "• Prevents Air Gulping:"
+          - text: Without the competitive trigger, dogs don't gulp—they explore
+        - generic [ref=e271]:
+          - strong [ref=e272]: "• Medical-Grade Materials:"
+          - text: Premium stainless steel that's dishwasher safe
+        - text: My vet couldn't believe the change at Sophie's follow-up.
+        - text: "\"Show me how you're feeding her.\""
+        - text: I brought the PaceBowl to the appointment.
+        - text: "Dr. Martinez watched Sophie eat for thirty seconds then said something I'll never forget:"
+        - text: "\"In fifteen years of practice, this is the first time I've seen a reformed gulper actually stop gulping instead of just slowing down.\""
+      - paragraph [ref=e276]:
+        - strong [ref=e278]: Six Months Later—Zero Emergencies
+      - paragraph [ref=e282]:
+        - text: Sophie hasn't had a single scare.
+        - text: But I think about other dogs every day. The ones whose owners are watching them vacuum dinner tonight, laughing at how "enthusiastic" they are.
+        - text: Not knowing that stomach is filling with air.
+        - text: Not knowing about the 30-minute death window.
+        - text: My friend's Labrador died from GDV last month. Twenty minutes after eating. They didn't make it in time.
+        - text: "She said what I used to say: \"I thought he just loved his food.\""
+      - paragraph [ref=e286]:
+        - strong [ref=e288]: The Real Cost of Waiting
+      - paragraph [ref=e292]:
+        - generic [ref=e293]:
+          - text: "Here's what haunts me:"
+          - strong [ref=e294]: The PaceBowl costs less than 1% of Sophie's emergency surgery.
+        - text: One percent.
+        - text: But without that surgery forcing me to learn the truth, I never would have known about the competitive feeding trigger.
+        - text: Every day you wait is another day of Russian roulette.
+        - text: Those air bubbles don't just disappear. They accumulate with every meal, waiting for the wrong moment to flip your dog's stomach.
+      - paragraph [ref=e300]:
+        - strong [ref=e302]: What Other Dog Parents Are Saying
+      - paragraph [ref=e306]:
+        - text: "\"My Beagle Bailey had two bloat scares in six months—$5,600 total. Since switching to the PaceBowl, it's been 14 months without a single incident. The peace of mind alone is worth it.\" - Patricia M."
+        - text: "\"I was skeptical after trying three other slow feeders. But watching my Lab Oscar actually chew instead of inhale his food? Priceless. No more 2 AM vomit wake-ups!\" - David K."
+        - text: "\"The vet said this bowl literally saved my dog's life. The honeycomb design is genius—my German Shepherd went from gulping to grazing. 18 months bloat-free!\" - Susan R."
+      - paragraph [ref=e310]:
+        - strong [ref=e312]: Don't Wait for Your Tuesday Night Emergency
+      - paragraph [ref=e316]:
+        - text: Right now, Waggier is offering 52% off the PaceBowl for dog parents who want to take action before it's too late.
+        - text: "But here's the catch: Because of the premium stainless steel and specialized manufacturing, they can only produce limited quantities."
+      - paragraph [ref=e320]:
+        - link "Click the button below now to check if Waggier PaceBowl is still available with the special discount!" [ref=e321] [cursor=pointer]:
+          - /url: https://waggier.com/products/waggier-pacebowl
+          - strong [ref=e323]: Click the button below now to check if Waggier PaceBowl is still available with the special discount!
+      - paragraph [ref=e327]:
+        - strong [ref=e329]: Covered by a 90-Day Money Back Guarantee
+      - paragraph [ref=e333]:
+        - text: If the PaceBowl doesn't completely transform your dog's eating, Waggier will refund every penny.
+        - text: "They're that confident because they know: once you see your dog eating calmly instead of gulping desperately, you'll never go back to regular bowls."
+      - paragraph [ref=e337]:
+        - strong [ref=e339]: You Have Two Choices
+      - paragraph [ref=e343]:
+        - text: You can keep watching your dog inhale their food, hoping tonight isn't the night their stomach flips.
+        - text: Or you can take action now and eliminate the risk forever.
+        - text: GDV doesn't give second chances. One flip, one timer, one race to the vet.
+        - text: The PaceBowl isn't just another slow feeder. It's the only bowl designed to deactivate the neurological trigger that causes the air gulping that causes the bloat that kills more dogs than cancer.
+        - strong [ref=e345]: Every meal without it is another roll of the dice.
+        - text: Don't wait for the timer on the wall.
+        - text: Don't wait to hear your vet say "if only you'd known sooner."
+        - text: Because now you know.
+      - link "<p>Apply Discount & Check Availability</p>" [ref=e348] [cursor=pointer]:
+        - /url: https://waggier.com/products/waggier-pacebowl
+        - generic [ref=e349]:
+          - img [ref=e351]
+          - paragraph [ref=e354]: Apply Discount & Check Availability
+      - paragraph [ref=e358]:
+        - generic [ref=e359]: Click the link above to see if Waggier is still offering a 52% discount and free shipping
+    - generic [ref=e365]:
+      - paragraph [ref=e369]: © 2025 Wigger™ All Rights Reserved. Privacy Policy. Terms of Use
+      - paragraph [ref=e373]: THIS IS AN ADVERTISEMENT AND NOT AN ACTUAL NEWS ARTICLE, BLOG, OR CONSUMER PROTECTION UPDATE
+    - button [ref=e375] [cursor=pointer]:
+      - img [ref=e378]
+  - generic:
+    - iframe
+  - button "Chat widget toggle" [ref=e380] [cursor=pointer]:
+    - img [ref=e382]

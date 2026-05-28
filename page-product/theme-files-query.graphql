@@ -1,0 +1,17 @@
+query ThemeFiles($themeId: ID!, $filenames: [String!]!) {
+  theme(id: $themeId) {
+    id
+    name
+    role
+    files(filenames: $filenames) {
+      nodes {
+        filename
+        body {
+          ... on OnlineStoreThemeFileBodyText {
+            content
+          }
+        }
+      }
+    }
+  }
+}

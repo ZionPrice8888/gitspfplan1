@@ -1,0 +1,26 @@
+query ProductAndPageStatus($productId: ID!, $pageId: ID!) {
+  product(id: $productId) {
+    id
+    title
+    handle
+    status
+    onlineStoreUrl
+    onlineStorePreviewUrl
+    templateSuffix
+    resourcePublications(first: 10) {
+      nodes {
+        publication {
+          title
+        }
+        isPublished
+      }
+    }
+  }
+  page(id: $pageId) {
+    id
+    title
+    handle
+    isPublished
+    templateSuffix
+  }
+}

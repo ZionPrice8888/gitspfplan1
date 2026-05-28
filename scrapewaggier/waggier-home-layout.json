@@ -1,0 +1,564 @@
+{
+  "url": "https://waggier.com/",
+  "title": "Waggier",
+  "viewport": {
+    "width": 1440,
+    "height": 1200
+  },
+  "documentHeight": 4640,
+  "capturedAfterScrollToBottom": true,
+  "sections": [
+    {
+      "index": 4,
+      "tag": "div",
+      "id": "shopify-section-sections--19451233698020__horizontal_ticker_4U3wL7",
+      "classes": [
+        "shopify-section",
+        "shopify-section-group-header-group"
+      ],
+      "box": {
+        "top": 90,
+        "left": 0,
+        "width": 1440,
+        "height": 50
+      },
+      "heading": "",
+      "text": "Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked",
+      "imageCount": 0,
+      "images": [],
+      "ctas": []
+    },
+    {
+      "index": 6,
+      "tag": "section",
+      "id": "shopify-section-template--19451233370340__cfca4268-6358-426c-98ab-d292aeef11e5",
+      "classes": [
+        "shopify-section",
+        "section"
+      ],
+      "box": {
+        "top": 140,
+        "left": 0,
+        "width": 1440,
+        "height": 560
+      },
+      "heading": "From 30-Second Gulping to 5-Minute Healthy Meals",
+      "text": "From 30-Second Gulping to 5-Minute Healthy Meals Shop PaceBowl Now",
+      "imageCount": 1,
+      "images": [
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/76a76a66-1bd9-4fba-a1c3-94a0896235e0.png?v=1755043281&width=1500",
+          "naturalWidth": 1440,
+          "naturalHeight": 960,
+          "renderedWidth": 1440,
+          "renderedHeight": 560
+        }
+      ],
+      "ctas": [
+        "Shop PaceBowl Now"
+      ]
+    },
+    {
+      "index": 0,
+      "tag": "div",
+      "id": "shopify-section-sections--19451233698020__header",
+      "classes": [
+        "shopify-section",
+        "shopify-section-group-header-group",
+        "section-header",
+        "scrolled-past-header",
+        "shopify-section-header-sticky",
+        "animate"
+      ],
+      "box": {
+        "top": 153,
+        "left": 0,
+        "width": 1440,
+        "height": 90
+      },
+      "heading": "Menu",
+      "text": "Home Shop Waggier Contact Us Track Order Log in Cart",
+      "imageCount": 1,
+      "images": [
+        {
+          "alt": "Waggier",
+          "src": "https://waggier.com/cdn/shop/files/21-Transparent.png?v=1754932832&width=500",
+          "naturalWidth": 1440,
+          "naturalHeight": 394,
+          "renderedWidth": 180,
+          "renderedHeight": 49
+        }
+      ],
+      "ctas": [
+        "Home",
+        "Shop Waggier",
+        "Contact Us",
+        "Track Order",
+        "Log in",
+        "Home",
+        "Shop Waggier",
+        "Contact Us",
+        "Track Order",
+        "Clear search term",
+        "Search",
+        "Close",
+        "Log in",
+        "Cart"
+      ]
+    },
+    {
+      "index": 1,
+      "tag": "header",
+      "id": "",
+      "classes": [
+        "header",
+        "header--middle-center",
+        "header--mobile-center",
+        "page-width",
+        "header--has-menu"
+      ],
+      "box": {
+        "top": 153,
+        "left": 20,
+        "width": 1400,
+        "height": 89
+      },
+      "heading": "Menu",
+      "text": "Home Shop Waggier Contact Us Track Order Log in Cart",
+      "imageCount": 1,
+      "images": [
+        {
+          "alt": "Waggier",
+          "src": "https://waggier.com/cdn/shop/files/21-Transparent.png?v=1754932832&width=500",
+          "naturalWidth": 1440,
+          "naturalHeight": 394,
+          "renderedWidth": 180,
+          "renderedHeight": 49
+        }
+      ],
+      "ctas": [
+        "Home",
+        "Shop Waggier",
+        "Contact Us",
+        "Track Order",
+        "Log in",
+        "Home",
+        "Shop Waggier",
+        "Contact Us",
+        "Track Order",
+        "Clear search term",
+        "Search",
+        "Close",
+        "Log in",
+        "Cart"
+      ]
+    },
+    {
+      "index": 3,
+      "tag": "nav",
+      "id": "",
+      "classes": [
+        "header__inline-menu"
+      ],
+      "box": {
+        "top": 177,
+        "left": 58,
+        "width": 556,
+        "height": 42
+      },
+      "heading": "",
+      "text": "Home Shop Waggier Contact Us Track Order",
+      "imageCount": 0,
+      "images": [],
+      "ctas": [
+        "Home",
+        "Shop Waggier",
+        "Contact Us",
+        "Track Order"
+      ]
+    },
+    {
+      "index": 7,
+      "tag": "div",
+      "id": "shopify-section-template--19451233370340__horizontal_ticker_maWmz4",
+      "classes": [
+        "shopify-section"
+      ],
+      "box": {
+        "top": 700,
+        "left": 0,
+        "width": 1440,
+        "height": 77
+      },
+      "heading": "",
+      "text": "✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦",
+      "imageCount": 16,
+      "images": [
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/American_Kennel_Club_Logo_copy-fix_1dda7c8c-d682-40c4-93d8-1ea81b95e9bd.png?v=1754974484",
+          "naturalWidth": 2462,
+          "naturalHeight": 854,
+          "renderedWidth": 130,
+          "renderedHeight": 45
+        },
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/petMD_d25ed3e7-64c6-4a6e-b43d-edb5b8f066cd.png?v=1754974405",
+          "naturalWidth": 1563,
+          "naturalHeight": 303,
+          "renderedWidth": 232,
+          "renderedHeight": 45
+        },
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/The_Dodo_logo_copy_2.png?v=1754974086",
+          "naturalWidth": 1200,
+          "naturalHeight": 485,
+          "renderedWidth": 111,
+          "renderedHeight": 45
+        },
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/Chewy-Emblem_a8db9b87-8d80-487d-9b43-d8906a978c93.png?v=1754974086",
+          "naturalWidth": 1200,
+          "naturalHeight": 345,
+          "renderedWidth": 157,
+          "renderedHeight": 45
+        },
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/American_Kennel_Club_Logo_copy-fix_1dda7c8c-d682-40c4-93d8-1ea81b95e9bd.png?v=1754974484",
+          "naturalWidth": 2462,
+          "naturalHeight": 854,
+          "renderedWidth": 130,
+          "renderedHeight": 45
+        },
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/petMD_d25ed3e7-64c6-4a6e-b43d-edb5b8f066cd.png?v=1754974405",
+          "naturalWidth": 1563,
+          "naturalHeight": 303,
+          "renderedWidth": 232,
+          "renderedHeight": 45
+        },
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/The_Dodo_logo_copy_2.png?v=1754974086",
+          "naturalWidth": 1200,
+          "naturalHeight": 485,
+          "renderedWidth": 111,
+          "renderedHeight": 45
+        },
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/Chewy-Emblem_a8db9b87-8d80-487d-9b43-d8906a978c93.png?v=1754974086",
+          "naturalWidth": 1200,
+          "naturalHeight": 345,
+          "renderedWidth": 157,
+          "renderedHeight": 45
+        },
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/American_Kennel_Club_Logo_copy-fix_1dda7c8c-d682-40c4-93d8-1ea81b95e9bd.png?v=1754974484",
+          "naturalWidth": 2462,
+          "naturalHeight": 854,
+          "renderedWidth": 130,
+          "renderedHeight": 45
+        },
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/petMD_d25ed3e7-64c6-4a6e-b43d-edb5b8f066cd.png?v=1754974405",
+          "naturalWidth": 1563,
+          "naturalHeight": 303,
+          "renderedWidth": 232,
+          "renderedHeight": 45
+        }
+      ],
+      "ctas": []
+    },
+    {
+      "index": 8,
+      "tag": "div",
+      "id": "shopify-section-template--19451233370340__section_divider_U8wTNR",
+      "classes": [
+        "shopify-section"
+      ],
+      "box": {
+        "top": 777,
+        "left": 0,
+        "width": 1440,
+        "height": 60
+      },
+      "heading": "",
+      "text": "",
+      "imageCount": 0,
+      "images": [],
+      "ctas": []
+    },
+    {
+      "index": 9,
+      "tag": "div",
+      "id": "shopify-section-template--19451233370340__image_with_text_LYyAFU",
+      "classes": [
+        "shopify-section",
+        "section"
+      ],
+      "box": {
+        "top": 837,
+        "left": 0,
+        "width": 1440,
+        "height": 722
+      },
+      "heading": "Prevents Deadly Bloat & Digestive Issues",
+      "text": "Prevents Deadly Bloat & Digestive Issues Slowing eating from 30 seconds to 5 minutes dramatically reduces the risk of gastric bloat (GDV) - a condition that kills 30% of affected dogs. Plus eliminates vomiting, choking, and painful gas that plague fast eaters.",
+      "imageCount": 0,
+      "images": [],
+      "ctas": []
+    },
+    {
+      "index": 10,
+      "tag": "div",
+      "id": "shopify-section-template--19451233370340__image_with_text_H7ELbL",
+      "classes": [
+        "shopify-section",
+        "section"
+      ],
+      "box": {
+        "top": 1559,
+        "left": 0,
+        "width": 1440,
+        "height": 722
+      },
+      "heading": "Transforms Dangerous Gulping into Healthy Eating",
+      "text": "Transforms Dangerous Gulping into Healthy Eating Your dog finally chews their food properly, improving nutrient absorption and digestion. No more scary choking sounds, post-meal vomiting, or emergency vet visits. Every meal becomes safe and comfortable. Shop PaceBowl Now",
+      "imageCount": 1,
+      "images": [
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/3.jpg?v=1755041489&width=750",
+          "naturalWidth": 650,
+          "naturalHeight": 650,
+          "renderedWidth": 650,
+          "renderedHeight": 650
+        }
+      ],
+      "ctas": [
+        "Shop PaceBowl Now"
+      ]
+    },
+    {
+      "index": 11,
+      "tag": "section",
+      "id": "shopify-section-template--19451233370340__collapsible_content_4YQ43m",
+      "classes": [
+        "shopify-section",
+        "section"
+      ],
+      "box": {
+        "top": 2281,
+        "left": 0,
+        "width": 1440,
+        "height": 596
+      },
+      "heading": "FAQs",
+      "text": "FAQs check_box Will this work for my flat-faced dog (pug, bulldog, etc.)? Yes! The honeycomb design is actually easier for flat-faced breeds than spiral mazes. The hexagonal compartments are shallow enough for pugs and bulldogs to access comfortably while still slowing them down effectively. We have hundreds of happy flat-faced customers. check_box My dog is really smart - won't they figure out how to eat fast anyway? Even the smartest dogs can't physically bypass the honeycomb barriers. Unlike simple raised bumps they can eat around, our maze requires them to use their tongue to access each section individually. Studies show dogs may adapt slightly but still eat 8-10x slower than with regular bowls. check_box What if my dog gets frustrated and stops eating? This rarely happens! 98% of dogs adapt within their first meal. The honeycomb design provides challenge without frustration. If your dog seems hesitant, try mixing in a small amount of wet food or treats initially. Our 90-day guarantee means you can return it if your dog truly won't use it. check_box Is 2-4 cups enough for my medium/large dog? The 2-4 cup capacity is per meal, not per day. Most medium dogs eat 1.5-3 cups per meal, making this perfect. For larger dogs (over 60 lbs), you may need to split meals or consider buying two bowls. The slower eating actually helps dogs feel fuller with less food. check_box How do I clean the maze sections? Super easy! The stainless steel is completely dishwasher safe - just place it on the top rack. For hand washing, the smooth steel surface rinses clean easily. No hidden crevices where food gets stuck like with plastic maze bowls. Most customers just rinse and dishwasher it daily. check_box Will the bowl slide around while my dog eats? No! The heavy-duty rubber base grips yo",
+      "imageCount": 0,
+      "images": [],
+      "ctas": []
+    },
+    {
+      "index": 12,
+      "tag": "div",
+      "id": "shopify-section-template--19451233370340__image_with_text_GgRByD",
+      "classes": [
+        "shopify-section",
+        "section"
+      ],
+      "box": {
+        "top": 2877,
+        "left": 0,
+        "width": 1440,
+        "height": 722
+      },
+      "heading": "Ready to Transform Your Dog's Mealtime?",
+      "text": "Ready to Transform Your Dog's Mealtime? Your dog deserves to eat without choking. You deserve peace of mind at every meal. Get your PaceBowl today and see the difference in the very first meal. Shop PaceBowl Now",
+      "imageCount": 1,
+      "images": [
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/product-in-use.jpg?v=1760691838&width=750",
+          "naturalWidth": 650,
+          "naturalHeight": 650,
+          "renderedWidth": 650,
+          "renderedHeight": 650
+        }
+      ],
+      "ctas": [
+        "Shop PaceBowl Now"
+      ]
+    },
+    {
+      "index": 16,
+      "tag": "div",
+      "id": "shopify-section-sections--19451233665252__section_divider_iXMaUU",
+      "classes": [
+        "shopify-section",
+        "shopify-section-group-footer-group"
+      ],
+      "box": {
+        "top": 3599,
+        "left": 0,
+        "width": 1440,
+        "height": 80
+      },
+      "heading": "",
+      "text": "",
+      "imageCount": 0,
+      "images": [],
+      "ctas": []
+    },
+    {
+      "index": 17,
+      "tag": "div",
+      "id": "shopify-section-sections--19451233665252__horizontal_ticker_DzgrVq",
+      "classes": [
+        "shopify-section",
+        "shopify-section-group-footer-group"
+      ],
+      "box": {
+        "top": 3679,
+        "left": 0,
+        "width": 1440,
+        "height": 50
+      },
+      "heading": "",
+      "text": "Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked Vet Approved 10,000+ Happy Dogs Free Shipping on All Orders 90-Day Refund No Question Asked",
+      "imageCount": 0,
+      "images": [],
+      "ctas": []
+    },
+    {
+      "index": 18,
+      "tag": "section",
+      "id": "shopify-section-sections--19451233665252__newsletter_daGB6M",
+      "classes": [
+        "shopify-section",
+        "shopify-section-group-footer-group",
+        "section"
+      ],
+      "box": {
+        "top": 3729,
+        "left": 0,
+        "width": 1440,
+        "height": 400
+      },
+      "heading": "Join the Waggier Pack!",
+      "text": "Join the Waggier Pack! Get exclusive discounts, training tips, and be the first to know about new products. Plus, adorable dog photos that'll make your day! No spam, just tail-wagging good stuff! 🐾 Email Sign up",
+      "imageCount": 0,
+      "images": [],
+      "ctas": [
+        "Sign up"
+      ]
+    },
+    {
+      "index": 19,
+      "tag": "div",
+      "id": "shopify-section-sections--19451233665252__footer",
+      "classes": [
+        "shopify-section",
+        "shopify-section-group-footer-group"
+      ],
+      "box": {
+        "top": 4129,
+        "left": 0,
+        "width": 1440,
+        "height": 511
+      },
+      "heading": "Need Help?",
+      "text": "Email: support@waggier.com Customer service: Monday to Friday, 9:00 am to 5:00 pm PST Address: 16192 Coastal Highway, Lewes, Delaware, United States 19958 Need Help? Contact Us Shipping Information FAQs About Us Track Your Order Our Policy Return and refund policy Shipping Policy Payment Policy Privacy Policy Terms of Service Country/region United States (USD $) Payment methods © 2026, Waggier All Right Reserved.",
+      "imageCount": 1,
+      "images": [
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/21-Transparent.png?v=1754932832&width=1100",
+          "naturalWidth": 1439,
+          "naturalHeight": 395,
+          "renderedWidth": 200,
+          "renderedHeight": 55
+        }
+      ],
+      "ctas": [
+        "Contact Us",
+        "Shipping Information",
+        "FAQs",
+        "About Us",
+        "Track Your Order",
+        "Return and refund policy",
+        "Shipping Policy",
+        "Payment Policy",
+        "Privacy Policy",
+        "Terms of Service",
+        "United States (USD $)",
+        "Australia (AUD $)",
+        "Canada (CAD $)",
+        "New Zealand (NZD $)",
+        "United Kingdom (GBP £)",
+        "United States (USD $)"
+      ]
+    },
+    {
+      "index": 20,
+      "tag": "footer",
+      "id": "",
+      "classes": [
+        "footer",
+        "color-scheme-sections--19451233665252__footer",
+        "color-background-1",
+        "gradient",
+        "section-sections--19451233665252__footer-padding",
+        "animate-section",
+        "animate--hidden",
+        "animate--shown"
+      ],
+      "box": {
+        "top": 4129,
+        "left": 0,
+        "width": 1440,
+        "height": 511
+      },
+      "heading": "Need Help?",
+      "text": "Email: support@waggier.com Customer service: Monday to Friday, 9:00 am to 5:00 pm PST Address: 16192 Coastal Highway, Lewes, Delaware, United States 19958 Need Help? Contact Us Shipping Information FAQs About Us Track Your Order Our Policy Return and refund policy Shipping Policy Payment Policy Privacy Policy Terms of Service Country/region United States (USD $) Payment methods © 2026, Waggier All Right Reserved.",
+      "imageCount": 1,
+      "images": [
+        {
+          "alt": "",
+          "src": "https://waggier.com/cdn/shop/files/21-Transparent.png?v=1754932832&width=1100",
+          "naturalWidth": 1439,
+          "naturalHeight": 395,
+          "renderedWidth": 200,
+          "renderedHeight": 55
+        }
+      ],
+      "ctas": [
+        "Contact Us",
+        "Shipping Information",
+        "FAQs",
+        "About Us",
+        "Track Your Order",
+        "Return and refund policy",
+        "Shipping Policy",
+        "Payment Policy",
+        "Privacy Policy",
+        "Terms of Service",
+        "United States (USD $)",
+        "Australia (AUD $)",
+        "Canada (CAD $)",
+        "New Zealand (NZD $)",
+        "United Kingdom (GBP £)",
+        "United States (USD $)"
+      ]
+    }
+  ]
+}

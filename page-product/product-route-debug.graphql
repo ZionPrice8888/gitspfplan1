@@ -1,0 +1,25 @@
+query ProductRouteDebug($id: ID!) {
+  product(id: $id) {
+    id
+    title
+    handle
+    onlineStoreUrl
+    onlineStorePreviewUrl
+    templateSuffix
+    publishedAt
+    resourcePublications(first: 10) {
+      nodes {
+        isPublished
+        publication {
+          id
+        }
+      }
+    }
+    availablePublicationsCount {
+      count
+    }
+    resourcePublicationsCount {
+      count
+    }
+  }
+}
