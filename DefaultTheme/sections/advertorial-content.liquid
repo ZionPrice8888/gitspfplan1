@@ -1,0 +1,644 @@
+{%- style -%}
+  .advertorial {
+    font-family: 'Poppins', sans-serif;
+    color: #1a1a1a;
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  .advertorial h1, .advertorial h2, .advertorial h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  }
+  .advertorial-wrapper {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .advertorial-grid {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    gap: 30px;
+    align-items: start;
+  }
+  .advertorial-article {
+    max-width: 800px;
+  }
+  .advertorial-article h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  .advertorial-article .article-date {
+    font-style: italic;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 24px;
+  }
+  .advertorial .pull-quote {
+    background: #EBFEFB;
+    padding: 16px 16px 16px 24px;
+    border-left: 4px solid #339B43;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 24px 0;
+    border-radius: 0 12px 12px 0;
+  }
+  .advertorial .article-img {
+    border-radius: 16px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 24px 0;
+  }
+  .advertorial .article-img.rounded-32 {
+    border-radius: 32px;
+  }
+  .advertorial .sub-heading {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .advertorial .stat-callout {
+    font-size: 18px;
+    font-weight: 700;
+    color: #dd1d1d;
+    margin: 20px 0;
+    padding: 12px 16px;
+    background: #fff5f5;
+    border-radius: 8px;
+  }
+  .advertorial .cta-box {
+    background: #f0fdf4;
+    border: 2px solid #339B43;
+    border-radius: 16px;
+    padding: 28px 24px;
+    text-align: center;
+    margin: 32px 0;
+  }
+  .advertorial .cta-box p {
+    margin-bottom: 16px;
+  }
+  .advertorial .cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #2D5F3F;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 32px;
+    border-radius: 32px;
+    text-decoration: none;
+    transition: background 0.2s;
+    border: none;
+    cursor: pointer;
+    line-height: 1.3;
+  }
+  .advertorial .cta-button:hover {
+    background: #339B43;
+  }
+  .advertorial .cta-button svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .advertorial .testimonial {
+    background: #f9fafb;
+    border-left: 4px solid #339B43;
+    padding: 16px 20px;
+    margin: 16px 0;
+    border-radius: 0 12px 12px 0;
+    font-style: italic;
+  }
+  .advertorial .testimonial .author {
+    font-style: normal;
+    font-weight: 600;
+    color: #2D5F3F;
+    margin-top: 8px;
+  }
+  .advertorial .feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+  }
+  .advertorial .feature-list li {
+    padding: 8px 0;
+    padding-left: 28px;
+    position: relative;
+  }
+  .advertorial .feature-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #339B43;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .advertorial .feature-list li strong {
+    color: #1a1a1a;
+  }
+  .advertorial .video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 24px 0;
+    background: #000;
+  }
+  .advertorial .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .advertorial .video-thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .advertorial .video-play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 68px;
+    height: 68px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+    z-index: 2;
+  }
+  .advertorial .video-play-btn:hover {
+    background: #ef0800;
+  }
+  .advertorial .video-play-btn svg {
+    width: 28px;
+    height: 28px;
+    margin-left: 4px;
+  }
+  /* Sidebar */
+  .advertorial-sidebar {
+    position: sticky;
+    top: 32px;
+  }
+  .advertorial .sidebar-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    padding: 24px;
+    text-align: center;
+  }
+  .advertorial .sidebar-card .product-img {
+    width: 40%;
+    margin: 0 auto 12px;
+    display: block;
+  }
+  .advertorial .sidebar-card .stars {
+    color: #FDAC2B;
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+  .advertorial .sidebar-card .rating-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 12px;
+  }
+  .advertorial .sidebar-card .sidebar-heading {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .advertorial .sidebar-card .sidebar-photo {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 12px;
+  }
+  .advertorial .sidebar-card .sidebar-sub {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    line-height: 1.4;
+  }
+  /* Green banner */
+  .advertorial-banner {
+    background: #2D5F3F;
+    padding: 16px 0;
+  }
+  .advertorial-banner img {
+    width: 25%;
+    max-width: 149px;
+    display: block;
+  }
+  .advertorial-banner .banner-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    align-items: center;
+  }
+  /* Guarantee badge */
+  .advertorial .guarantee-badge {
+    display: inline-block;
+    background: #f0fdf4;
+    border: 2px solid #339B43;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 700;
+    color: #2D5F3F;
+    margin: 12px 0;
+  }
+  /* Mobile */
+  @media (max-width: 767px) {
+    .advertorial-grid {
+      grid-template-columns: 1fr;
+    }
+    .advertorial-article h1 {
+      font-size: 30px;
+    }
+    .advertorial {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .advertorial .sub-heading {
+      font-size: 20px;
+    }
+    .advertorial-sidebar {
+      position: static;
+      order: -1;
+      margin-bottom: 24px;
+    }
+    .advertorial-banner .banner-inner {
+      grid-template-columns: 1fr;
+    }
+    .advertorial-banner img {
+      width: 50%;
+    }
+    .advertorial .cta-button {
+      font-size: 16px;
+      padding: 14px 24px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .advertorial-grid {
+      grid-template-columns: 1fr;
+    }
+    .advertorial-sidebar {
+      position: static;
+      margin-bottom: 24px;
+    }
+  }
+{%- endstyle -%}
+
+{%- assign cta_url = section.settings.cta_url -%}
+{%- assign cta_text = section.settings.cta_text -%}
+{%- assign sidebar_cta_text = section.settings.sidebar_cta_text -%}
+
+<section class="advertorial">
+  <!-- Green Banner -->
+  <div class="advertorial-banner">
+    <div class="banner-inner">
+      <a href="{{ cta_url }}" title="Waggier">
+        <img src="//waggier.com/cdn/shop/files/gempages_579706557655155460-f16b6ad4-a54f-4746-8c4e-82ed9f484654.png?v=14875919882035262134" alt="Waggier" loading="eager" width="149" height="51">
+      </a>
+    </div>
+  </div>
+
+  <!-- Content Grid -->
+  <div class="advertorial-wrapper">
+    <div class="advertorial-grid">
+
+      <!-- LEFT COLUMN: Article -->
+      <div class="advertorial-article">
+        <h1>Dog Owner Exposes Hidden Truth: The 30-Minute Timer That Nearly Killed Her Corgi</h1>
+        <p class="article-date">August 05 2025 at 9:17 AM PST</p>
+
+        <div class="pull-quote">
+          "My vet circled the timer on the wall: 'If your dog's stomach flips, you have 30 minutes or she dies.'"
+        </div>
+
+        <img class="article-img" src="//waggier.com/cdn/shop/files/gempages_579706557655155460-18501f23-4284-41f3-a748-fc95e99157ac.jpg?v=4993775241241843745" alt="Dog eating" loading="eager" width="748" height="416">
+
+        <p><strong>I thought Sophie just loved her food.</strong></p>
+
+        <p>Turns out I'd been playing Russian roulette with her life twice a day for three years.</p>
+        <p>If your dog wolfs down their meals in under 60 seconds...</p>
+        <p>If you've ever joked about them being a "vacuum cleaner" at dinner time...</p>
+        <p>If you think fast eating is just enthusiasm for food...</p>
+        <p><strong>Then what I'm about to share could save your dog's life.</strong></p>
+
+        <div class="stat-callout">
+          Every single day, 30% of dogs who develop bloat die -- even WITH emergency treatment.
+        </div>
+
+        <img class="article-img" src="//waggier.com/cdn/shop/files/gempages_579706557655155460-f3d242cb-53cb-4379-b5ee-de99ffa52915.jpg?v=7711609496902943307" alt="Dog with food" loading="eager" width="748" height="511">
+
+        <p>And here's the terrifying part: The "enthusiastic eating" you laugh about is actually filling your dog's stomach with invisible air bombs that can detonate 20 minutes after any meal.</p>
+        <p>I'm talking about something vets call <strong>GDV</strong> -- Gastric Dilatation Volvulus.</p>
+        <p>But this isn't the obvious emergency you can see coming.</p>
+        <p>This is the silent killer that strikes during a normal Tuesday dinner... then gives you exactly 30 minutes to save your dog's life.</p>
+
+        <!-- The Night Everything Changed -->
+        <h2 class="sub-heading">The Night Everything Changed</h2>
+
+        <p>My name is Jennifer Thompson.</p>
+        <p>Three years ago, I thought I was a responsible dog owner.</p>
+        <p>I live in Denver with my husband Mark and our Corgi Sophie. Premium food. Regular vet visits. Daily walks. I did everything right.</p>
+        <p>Or so I thought...</p>
+        <p>Sophie had always wolfed down her food -- 60 seconds flat for a whole bowl. We used to post videos of her "eating performances" that friends found hilarious.</p>
+        <p>"Look at her go! She must really love that salmon recipe!"</p>
+        <p>That Tuesday started like any other dinner time.</p>
+        <p>Sophie inhaled her kibble as usual. I cleaned her bowl while she wandered to her bed.</p>
+        <p>Twenty minutes later, I heard a sound I'll never forget.</p>
+        <p>Not quite a whine. Not quite a retch. Something guttural and wrong.</p>
+        <p>Sophie was standing in the hallway, sides heaving, trying to vomit but nothing coming up.</p>
+        <p>Just foam. White foam and desperate gulping sounds.</p>
+
+        <img class="article-img" src="//waggier.com/cdn/shop/files/gempages_579706557655155460-006dd5d4-3e9b-460e-b7b6-8aa6bc738940.jpg?v=15898945611377956177" alt="Dog in distress" loading="lazy" width="748" height="374">
+
+        <p>Her stomach looked different. Swollen. Tight like a basketball.</p>
+        <p>"Mark, something's wrong with Sophie!"</p>
+        <p>She couldn't sit. Couldn't lie down. Just stood there, head hanging, drooling strings of foam.</p>
+        <p>I called our vet's emergency line. The tech's voice changed instantly.</p>
+        <p>"Get her here immediately. Don't wait. Drive fast but safe."</p>
+        <p>The panic in her voice told me everything.</p>
+
+        <!-- The Race Against Time -->
+        <h2 class="sub-heading">The Race Against Time</h2>
+
+        <p>During that endless 12-minute drive, Sophie's breathing got shallower. The foam turned pink-tinged.</p>
+        <p>The vet tech was waiting in the parking lot with a gurney. No paperwork. No questions. Just movement.</p>
+        <p>Dr. Martinez appeared in surgical scrubs.</p>
+        <p>"Sophie has GDV. Her stomach has flipped and is cutting off blood supply. We need to operate immediately."</p>
+        <p>"Is she going to --"</p>
+        <p>"We have maybe 20 minutes before tissue starts dying. I need your consent now."</p>
+
+        <div class="stat-callout">
+          $4,800. Four hours of surgery. One blood transfusion.
+        </div>
+
+        <img class="article-img" src="//waggier.com/cdn/shop/files/gempages_579706557655155460-128f3ef8-b8b8-4e5e-aa75-424d668d58e3.jpg?v=4970736308018695682" alt="Veterinary care" loading="lazy" width="748" height="512">
+
+        <p><strong>Sophie survived.</strong></p>
+        <p>Barely.</p>
+
+        <!-- The Shocking Truth -->
+        <h2 class="sub-heading">The Shocking Truth Nobody Tells You</h2>
+
+        <p>At 3 AM, while Sophie recovered, Dr. Martinez sat with me.</p>
+        <p>"This wasn't bad luck," she said. "Fast eating causes dogs to swallow massive amounts of air. That air creates a gas bubble that can flip the stomach at any time."</p>
+        <p>"But lots of dogs eat fast --"</p>
+        <p>"And GDV kills more of them than cancer. The difference is cancer takes months. GDV takes minutes."</p>
+        <p>She pulled up Sophie's x-rays.</p>
+        <p>"See this dark area? That's all the air she swallowed. Every fast meal creates this bomb in their stomach."</p>
+
+        <img class="article-img" src="//waggier.com/cdn/shop/files/gempages_579706557655155460-0bbe880e-2af7-4ea7-9b9b-813d1b551b51.jpg?v=8250532506872505487" alt="X-ray showing air in stomach" loading="lazy" width="748" height="615">
+
+        <p>I thought about every meal Sophie had ever eaten. Hundreds of invisible dice rolls.</p>
+        <p>"We tried tennis balls in her bowl," I said weakly.</p>
+        <p>Dr. Martinez shook her head.</p>
+        <p>"Tennis balls just make them eat around obstacles while still gulping air. The real problem is neurological."</p>
+
+        <!-- The Hidden Trigger -->
+        <h2 class="sub-heading">The Hidden Trigger Your Vet Never Mentioned</h2>
+
+        <p>"Your dog's brain can't tell the difference between eating at home and competing for a carcass in the wild," she explained.</p>
+        <p>"When food is presented in a pile -- ANY pile -- it triggers their competitive feeding instinct. They're not eating fast because they're hungry. They're eating fast because their brain thinks another wolf might steal their food."</p>
+        <p>She showed me a study from the Journal of Veterinary Behavior.</p>
+
+        <div class="stat-callout">
+          Traditional slow feeders reduced eating speed by 40% but only reduced air intake by 10%.
+        </div>
+
+        <p>"Speed isn't the enemy. Air is. And air comes from the gulping motion triggered by competitive feeding response."</p>
+        <p>All those solutions I'd tried? They slowed the eating but didn't stop the air gulping because the competitive trigger was still firing.</p>
+
+        <!-- The Discovery -->
+        <h2 class="sub-heading">The Discovery That Changed Everything</h2>
+
+        <p>Three days later, I brought Sophie home with 14 inches of incision staples.</p>
+        <p>That's when my neighbor Sarah stopped by. Her German Shepherd had bloated twice. $12,000 total.</p>
+        <p>"After the second surgery, our emergency vet told me about something that actually addresses the trigger," she said.</p>
+        <p>She showed me a video on her phone. Her dog eating calmly, methodically, no gulping motions.</p>
+        <p>"It's called the PaceBowl. The honeycomb design doesn't just create obstacles -- it breaks up the food so dramatically that the brain stops seeing it as one resource to defend."</p>
+        <p>"Watch his neck. See? No lurching gulp. His brain switched from 'compete' to 'explore.' No competitive response means no air gulping."</p>
+        <p>"Eight months since we switched. Zero bloat scares."</p>
+
+        <img class="article-img rounded-32" src="//waggier.com/cdn/shop/files/gempages_579706557655155460-8ea82762-ec6a-4899-af0f-cab4da319c89.jpg?v=11330563332805728809" alt="PaceBowl" loading="lazy" width="748" height="748">
+
+        <!-- The Solution -->
+        <h2 class="sub-heading">The Solution That Actually Works</h2>
+
+        <p>I ordered the <a href="{{ cta_url }}">Waggier PaceBowl</a> that afternoon.</p>
+        <p>When it arrived, I was skeptical. Another "miracle" solution.</p>
+        <p>But Sophie's reaction was immediate and bizarre.</p>
+        <p>Instead of her usual frantic gulping, she paused. Sniffed. Started eating with careful, exploring movements.</p>
+        <p>No neck lurching. No desperate gulps. Just steady, calm eating.</p>
+        <p>The meal that used to take 60 seconds took 10 minutes.</p>
+        <p>But here's what shocked me: I could HEAR the difference.</p>
+        <p>Before: <em>Gulp-gulp-gulp-gulp.</em></p>
+        <p>Now: <em>Crunch... crunch... explore... crunch.</em></p>
+        <p>No air rushing. No panic. Just eating.</p>
+
+        <!-- Video Embed -->
+        <div class="video-wrapper" data-vimeo-id="1109612615">
+          <img class="video-thumbnail" src="//waggier.com/cdn/shop/files/gempages_579706557655155460-c9da892a-bf6a-4802-bae0-330e9ae1d851.jpg?v=4042919175429110516" alt="PaceBowl video" loading="eager" width="748" height="421">
+          <button class="video-play-btn" onclick="playVimeo(this)" aria-label="Play video">
+            <svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+
+        <!-- Why This Design Is Different -->
+        <h2 class="sub-heading">Why This Design Is Different</h2>
+
+        <p>The PaceBowl's honeycomb maze pattern does something no other bowl can:</p>
+        <ul class="feature-list">
+          <li><strong>Breaks Visual Triggers:</strong> Food isn't in a pile, so the brain doesn't activate competition mode</li>
+          <li><strong>Forces Natural Foraging:</strong> Mimics how dogs would eat scattered prey in nature</li>
+          <li><strong>Prevents Air Gulping:</strong> Without the competitive trigger, dogs don't gulp -- they explore</li>
+          <li><strong>Medical-Grade Materials:</strong> Premium stainless steel that's dishwasher safe</li>
+        </ul>
+
+        <p>My vet couldn't believe the change at Sophie's follow-up.</p>
+        <p>"Show me how you're feeding her."</p>
+        <p>I brought the PaceBowl to the appointment.</p>
+        <p>Dr. Martinez watched Sophie eat for thirty seconds then said something I'll never forget:</p>
+        <p><em>"In fifteen years of practice, this is the first time I've seen a reformed gulper actually stop gulping instead of just slowing down."</em></p>
+
+        <!-- Six Months Later -->
+        <h2 class="sub-heading">Six Months Later -- Zero Emergencies</h2>
+
+        <p>Sophie hasn't had a single scare.</p>
+        <p>But I think about other dogs every day. The ones whose owners are watching them vacuum dinner tonight, laughing at how "enthusiastic" they are.</p>
+        <p>Not knowing that stomach is filling with air.</p>
+        <p>Not knowing about the 30-minute death window.</p>
+        <p>My friend's Labrador died from GDV last month. Twenty minutes after eating. They didn't make it in time.</p>
+        <p>She said what I used to say: "I thought he just loved his food."</p>
+
+        <!-- The Real Cost -->
+        <h2 class="sub-heading">The Real Cost of Waiting</h2>
+
+        <p>Here's what haunts me: <strong>The PaceBowl costs less than 1% of Sophie's emergency surgery.</strong></p>
+        <p>One percent.</p>
+        <p>But without that surgery forcing me to learn the truth, I never would have known about the competitive feeding trigger.</p>
+        <p>Every day you wait is another day of Russian roulette.</p>
+        <p>Those air bubbles don't just disappear. They accumulate with every meal, waiting for the wrong moment to flip your dog's stomach.</p>
+
+        <img class="article-img rounded-32" src="//waggier.com/cdn/shop/files/gempages_579706557655155460-d26cae83-49fc-4fb8-8aad-6071673fe464.jpg?v=14152170811792270100" alt="PaceBowl products" loading="lazy" width="748" height="512">
+
+        <!-- Testimonials -->
+        <h2 class="sub-heading">What Other Dog Parents Are Saying</h2>
+
+        <div class="testimonial">
+          "My Beagle Bailey had two bloat scares in six months -- $5,600 total. Since switching to the PaceBowl, it's been 14 months without a single incident. The peace of mind alone is worth it."
+          <div class="author">- Patricia M.</div>
+        </div>
+
+        <div class="testimonial">
+          "I was skeptical after trying three other slow feeders. But watching my Lab Oscar actually chew instead of inhale his food? Priceless. No more 2 AM vomit wake-ups!"
+          <div class="author">- David K.</div>
+        </div>
+
+        <div class="testimonial">
+          "The vet said this bowl literally saved my dog's life. The honeycomb design is genius -- my German Shepherd went from gulping to grazing. 18 months bloat-free!"
+          <div class="author">- Susan R.</div>
+        </div>
+
+        <!-- CTA Section -->
+        <h2 class="sub-heading">Don't Wait for Your Tuesday Night Emergency</h2>
+
+        <p>Right now, Waggier is offering 52% off the PaceBowl for dog parents who want to take action before it's too late.</p>
+        <p>But here's the catch: Because of the premium stainless steel and specialized manufacturing, they can only produce limited quantities.</p>
+
+        <div class="cta-box">
+          <p><strong>Click the button below now to check if Waggier PaceBowl is still available with the special discount!</strong></p>
+          <a href="{{ cta_url }}" class="cta-button">
+            {{ cta_text }}
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <div class="guarantee-badge">Covered by a 90-Day Money Back Guarantee</div>
+          <p>If the PaceBowl doesn't completely transform your dog's eating, Waggier will refund every penny.</p>
+          <p>They're that confident because they know: once you see your dog eating calmly instead of gulping desperately, you'll never go back to regular bowls.</p>
+        </div>
+
+        <!-- You Have Two Choices -->
+        <h2 class="sub-heading">You Have Two Choices</h2>
+
+        <p>You can keep watching your dog inhale their food, hoping tonight isn't the night their stomach flips.</p>
+        <p>Or you can take action now and eliminate the risk forever.</p>
+        <p>GDV doesn't give second chances. One flip, one timer, one race to the vet.</p>
+        <p>The PaceBowl isn't just another slow feeder. It's the only bowl designed to deactivate the neurological trigger that causes the air gulping that causes the bloat that kills more dogs than cancer.</p>
+        <p><strong>Every meal without it is another roll of the dice.</strong></p>
+        <p>Don't wait for the timer on the wall.</p>
+        <p>Don't wait to hear your vet say "if only you'd known sooner."</p>
+        <p><strong>Because now you know.</strong></p>
+
+        <div class="cta-box">
+          <a href="{{ cta_url }}" class="cta-button">
+            {{ cta_text }}
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: Sticky Sidebar -->
+      <div class="advertorial-sidebar">
+        <div class="sidebar-card">
+          <img class="product-img" src="//waggier.com/cdn/shop/files/gempages_579706557655155460-5cd883a9-46c8-472b-9f6a-623c367ba313.png?v=5746832217083586288" alt="PaceBowl" loading="lazy" width="200" height="200">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="rating-text">4.8 | 1,802 Reviews</div>
+          <div class="sidebar-heading">Prevents Deadly Bloat & Digestive Issues</div>
+          <img class="sidebar-photo" src="//waggier.com/cdn/shop/files/gempages_579706557655155460-f3719259-aeeb-48c9-bc21-861276ec9403.jpg?v=1372544028029224589" alt="PaceBowl product" loading="eager" width="748" height="748">
+          <div class="sidebar-sub">Make Every Meal Last 10X Longer For A Healthy Life with Waggier PaceBowl</div>
+          <a href="{{ cta_url }}" class="cta-button">
+            {{ sidebar_cta_text }}
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  function playVimeo(btn) {
+    var wrapper = btn.closest('.video-wrapper');
+    var videoId = wrapper.dataset.vimeoId;
+    var iframe = document.createElement('iframe');
+    iframe.src = 'https://player.vimeo.com/video/' + videoId + '?autoplay=1&muted=1&loop=1&controls=false&autopause=false';
+    iframe.allow = 'autoplay; encrypted-media';
+    iframe.setAttribute('allowfullscreen', '');
+    wrapper.innerHTML = '';
+    wrapper.appendChild(iframe);
+  }
+</script>
+
+{%- schema -%}
+{
+  "name": "Advertorial Content",
+  "tag": "section",
+  "class": "section advertorial-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "cta_url",
+      "label": "CTA Link URL",
+      "default": "/products/waggier-pacebowl-2"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA Button Text",
+      "default": "Apply Discount & Check Availability"
+    },
+    {
+      "type": "text",
+      "id": "sidebar_cta_text",
+      "label": "Sidebar CTA Text",
+      "default": "Check Availability"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 40
+    }
+  ],
+  "presets": [
+    {
+      "name": "Advertorial Content"
+    }
+  ]
+}
+{%- endschema -%}
